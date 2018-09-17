@@ -2,6 +2,14 @@ html, body,header,#intro {
   height: 100%;
 }
 #intro {
-  background: url(../img/photo.jpg);
+  background: url(../img/photo.jpg) no-repeat center center fixed;
   background-size: cover;
+}
+.top-nav-collapse{
+  background-color: #24355c;
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355c;
+  }
 }
